@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace dec04_1
+namespace dec04_2
 {
     class SleepPeriod
     {

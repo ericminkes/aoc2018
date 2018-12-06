@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 
 namespace dec03_1
 {
@@ -21,7 +20,7 @@ namespace dec03_1
                 {
                     for (int y = top; y < top + height; y++)
                     {
-                        fabric[x,y]++;
+                        fabric[x, y]++;
                     }
                 }
             }
@@ -30,7 +29,7 @@ namespace dec03_1
             {
                 for (int y = 0; y < 1000; y++)
                 {
-                    if (fabric[x,y] > 1)
+                    if (fabric[x, y] > 1)
                     {
                         overlap++;
                     }

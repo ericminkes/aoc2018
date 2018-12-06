@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Text;
 
-namespace dec05_1
+namespace dec05_2
 {
     class Program
     {
@@ -45,7 +45,7 @@ namespace dec05_1
                 if (a - b == 32 || b - a == 32)
                 {
                     polymer[i] = 0;
-                    polymer[i+1] = 0;
+                    polymer[i + 1] = 0;
                     i++;
                     reactions++;
                 }
