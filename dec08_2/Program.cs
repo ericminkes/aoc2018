@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace dec08_1
+namespace dec08_2
 {
     class Program
     {

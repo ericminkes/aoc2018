@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 
-namespace dec07_1
+namespace dec07_2
 {
     class Program
     {
@@ -15,16 +14,6 @@ namespace dec07_1
         static void Main(string[] args)
         {
             var instructions = System.IO.File.ReadAllLines("input.txt")
-            //var instructions = new List<string>
-            //    {
-            //        "Step C must be finished before step A can begin.",
-            //        "Step C must be finished before step F can begin.",
-            //        "Step A must be finished before step B can begin.",
-            //        "Step A must be finished before step D can begin.",
-            //        "Step B must be finished before step E can begin.",
-            //        "Step D must be finished before step E can begin.",
-            //        "Step F must be finished before step E can begin."
-            //    }
                 .Select(l => l.Split(' '))
                 .Select(l => new { In = l[1][0] - 4, Out = l[7][0] - 4 })
                 .ToList();

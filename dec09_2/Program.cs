@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Linq;
 
-namespace dec09_1
+namespace dec09_2
 {
     class Program
     {
